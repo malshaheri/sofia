@@ -14,19 +14,7 @@ body {
     background-attachment: fixed;
     overflow: hidden;
 }
-
-.container {
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 2px;
-    text-align: center;
-    min-height: 100vh;
-    /* Ensure the container takes up the full viewport height */
-    /* Footer height */
-    position: relative;
-    font-family: 'DroidArabicKufiRegular',sans-serif;
-    font-weight: bold;
-    
+.sofia{
     color: #fff;
     -webkit-animation: glow 1s ease-in-out infinite alternate;
     -moz-animation: glow 1s ease-in-out infinite alternate;
@@ -40,6 +28,33 @@ body {
     to {
       text-shadow: 0 0 20px #fff, 0 0 30px #b75184, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
     }
+  }
+
+
+
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2px;
+    text-align: center;
+    min-height: 100vh;
+    /* Ensure the container takes up the full viewport height */
+    /* Footer height */
+    position: relative;
+    font-family: 'DroidArabicKufiRegular',sans-serif;
+    color: #fff;
+    text-shadow:
+      0 0 5px #fff,
+      0 0 10px #fff,
+      0 0 20px #fff,
+      0 0 40px #0ff,
+      0 0 80px #0ff,
+      0 0 90px #0ff,
+      0 0 100px #0ff,
+      0 0 150px #0ff;
+    
+
   }
     
 
