@@ -1,110 +1,98 @@
 @import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200;400&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@100;200;300;400;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@100;200;300;400;600;700;800&display=swap");
 
 body {
-    margin: 0;
-    /* Reset default margin */
-    padding: 0;
-    box-sizing: border-box;
-    /* Include padding in the height calculation */
-    background: url(https://images.unsplash.com/photo-1498159551354-e44d84854c2f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGJhY2slMjBncm91bmQlMjBiYWJ5JTIwZ2lybHxlbnwwfDB8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    overflow: hidden;
+  margin: 0;
+  /* Reset default margin */
+  padding: 0;
+  box-sizing: border-box;
+  /* Include padding in the height calculation */
+  background: url(https://images.unsplash.com/photo-1498159551354-e44d84854c2f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGJhY2slMjBncm91bmQlMjBiYWJ5JTIwZ2lybHxlbnwwfDB8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
 }
-.sofia{
-    color: #fff;
-    -webkit-animation: glow 1s ease-in-out infinite alternate;
-    -moz-animation: glow 1s ease-in-out infinite alternate;
-    animation: glow 1s ease-in-out infinite alternate;
+.sofia {
+  color: #fff;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073,
+      0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
   }
-  
-  @keyframes glow {
-    from {
-      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
-    }
-    to {
-      text-shadow: 0 0 20px #fff, 0 0 30px #b75184, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
-    }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #b75184, 0 0 40px #ff4da6,
+      0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
   }
-
-
-
+}
 
 .container {
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 2px;
-    text-align: center;
-    min-height: 100vh;
-    /* Ensure the container takes up the full viewport height */
-    /* Footer height */
-    position: relative;
-    font-family: 'DroidArabicKufiRegular',sans-serif;
-    color: #fff;
-    text-shadow:
-      0 0 5px #fff,
-      0 0 10px #fff,
-      0 0 20px #fff,
-      0 0 40px #0ff,
-      0 0 80px #0ff,
-      0 0 90px #0ff,
-      0 0 100px #0ff,
-      0 0 150px #0ff;
-    
-
-  }
-    
-
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2px;
+  text-align: center;
+  min-height: 100vh;
+  /* Ensure the container takes up the full viewport height */
+  /* Footer height */
+  position: relative;
+  font-family: "DroidArabicKufiRegular", sans-serif;
+  color: #fff;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #0ff,
+    0 0 80px #0ff, 0 0 90px #0ff, 0 0 100px #0ff, 0 0 150px #0ff;
+}
 
 .slideshow-container {
-    max-width: 100%;
-    position: relative;
+  max-width: 100%;
+  position: relative;
 }
 
 .slide {
-    display: none;
-    position: block;
-    top: 0;
-    left: 0;
-    width: auto;
+  display: none;
+  position: block;
+  top: 0;
+  left: 0;
+  width: auto;
 }
 
 .slide img {
-    width: 50%;
-    height: auto;
+  width: 50%;
+  height: auto;
 }
 
 .content {
-    margin-top: 40px;
-    /* Add some space between the slideshow and the content */
-    font-size: 20px;
+  margin-top: 40px;
+  /* Add some space between the slideshow and the content */
+  font-size: 20px;
 }
 
 .footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    padding-top: 20px;
-    height: 2.5rem;
-    /* Footer height */
-    font-family: "Dosis", sans-serif;
-    color: aliceblue;
-    text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding-top: 20px;
+  height: 2.5rem;
+  /* Footer height */
+  font-family: "Dosis", sans-serif;
+  color: aliceblue;
+  text-align: center;
 }
 
 .fa {
-    color: #e90606;
-    margin: 0 3px;
-    font-size: 20px;
-    animation: pound 0.35s infinite alternate;
-    animation: pound 0.35s infinite alternate;
+  color: #e90606;
+  margin: 0 3px;
+  font-size: 20px;
+  animation: pound 0.35s infinite alternate;
+  animation: pound 0.35s infinite alternate;
 }
 
 @keyframes pound {
-    to {
-        transform: scale(1.1);
-    }
+  to {
+    transform: scale(1.1);
+  }
 }
